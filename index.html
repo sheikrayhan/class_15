@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+        <!-- Main CSS link -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <h1>JavaScript</h1>
+
+    <!-- calculateGrade -->
+    <div>
+        <h3>Enter your Name</h3>
+        <input id="name" type="text" placeholder="Enter Your Name" onkeyup="welcome()">
+        <h4 id="wlc"></h4>
+
+        <h3>Check your Marks</h3>
+        <input type="number" placeholder="Enter your marks"                             onkeyup="calculateGrade()" id="input_value">
+
+        <h4 id="result"></h4>
+    </div>
+    <!-- calculateGrade -->
+
+    <!-- ODD & EVEN Start -->
+   <div>
+        <h3 class="number_checking">You Can check Number "ODD" or "Even"</h3>
+        <input type="number" name="typeanum" id="typeanum" placeholder="Get a Number" onkeyup="oddeven()">
+        <h4 id="oddevenrslt"></h4>
+   </div>
+    <!-- ODD & EVEN END -->
+
+
+
+    <script src="js/app.js"></script>
+</body>
+</html>
